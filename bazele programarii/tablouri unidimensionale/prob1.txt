@@ -1,0 +1,11 @@
+Program p1;
+var sum1, sum2, n: integer;
+begin
+write('n=');
+readln(n);
+sum1:=n div 1000+ n div 100 mod 10;
+sum2:=n div 10 mod 10 + n mod 10;
+writeln('sum1=',sum1);
+writeln('sum2=',sum2);
+readln;
+end.

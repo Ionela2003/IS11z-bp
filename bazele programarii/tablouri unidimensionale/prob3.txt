@@ -1,0 +1,12 @@
+Program p3;
+var B1, b, h: integer; 
+    Ar : real;
+begin
+writeln('introduceti datele');
+write('B1='); readln(B1);
+write('b='); readln(b);
+write('h='); readln(h);
+Ar:=((B1+b)*h)/2;
+writeln('ar=',Ar:5:2);
+readln;
+end.

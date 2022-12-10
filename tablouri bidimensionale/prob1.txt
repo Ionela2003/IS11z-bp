@@ -1,0 +1,20 @@
+ Program p1;
+type Matrix=Array[1..30] of Array[1..30] of integer;
+ var m: Matrix;
+  i, j, k, n, max, s: integer;      
+begin
+  writeln('Dati n: ');
+  readln(n);
+  writeln('Dati k: ');
+  readln(k);
+  writeln('Dati elementele matricei: ');
+  for i:= 1 to n do
+    for j:= 1 to k do
+      readln(m[i,j]);
+    
+  for i:= 1 to n do
+    begin
+    writeln;
+    for j:= 1 to k do
+        write(m[i,j],' ');
+    end;

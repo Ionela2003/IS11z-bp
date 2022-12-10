@@ -1,0 +1,14 @@
+Program p1;
+var min, sec, sec1, h : integer;
+begin
+min:=0; h:=0; sec1:=0;
+writeln('introduceti secundele');
+write('sec='); readln(sec);
+if sec>=3600 then begin h:=sec div 3600; sec:=sec-h*3600; end;
+if sec > 60 then begin min:=sec div 60; sec:=sec-min*60; end;
+sec1:=sec;
+writeln('h=',h);
+writeln('min=',min);
+writeln('sec=',sec1);
+readln;
+end.

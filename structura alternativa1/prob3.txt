@@ -1,0 +1,13 @@
+Program p1;
+var a, b: integer;
+begin
+writeln('introduceti datele');
+write('a='); readln(a);
+write('b='); readln(b);
+a:=a+b;
+b:=a-b;
+a:=a-b;
+writeln('a=',a);
+writeln('b=',b);
+readln;
+end.

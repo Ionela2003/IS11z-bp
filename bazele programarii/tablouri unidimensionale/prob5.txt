@@ -1,0 +1,9 @@
+Program p5;
+var Ar, l : real;
+begin
+writeln('introduceti aria cercului');
+write('Ar='); readln(Ar);
+l:=2*pi*sqrt(Ar/pi);
+writeln('l=',l:5:2);
+readln;
+end.

@@ -1,0 +1,14 @@
+Program p2;
+var a, b, c: integer; 
+    Ar, P: real;
+begin
+writeln('introduceti laturile');
+write('a='); readln(a);
+write('b='); readln(b);
+write('c='); readln(c);
+P:=(a+b+c)/2;
+Ar:=sqrt(p*(p-a)*(p-b)*(p-c));
+writeln('p=',P:5:2);
+writeln('ar=',Ar:5:2);
+readln;
+end.

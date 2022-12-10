@@ -1,0 +1,12 @@
+Program p1;
+var s,x: integer;
+    p,rez:real;
+begin
+writeln('introduceti datele');
+write('suma='); readln(s);
+write('procent='); readln(p);
+write('ani='); readln(x);
+rez:=s+x*(s*(p/100));
+write('rez=',rez:10:2);
+readln;
+end.

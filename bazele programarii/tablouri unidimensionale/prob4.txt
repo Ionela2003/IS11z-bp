@@ -1,0 +1,10 @@
+Program p4;
+var d : integer; 
+    Ar : real;
+begin
+writeln('introduceti diametrul');
+write('d='); readln(d);
+Ar:=pi*sqr(d/2);
+writeln('ar=',Ar:5:2);
+readln;
+end.
